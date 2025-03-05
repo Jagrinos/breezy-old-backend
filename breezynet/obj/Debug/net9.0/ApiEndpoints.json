@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "breezynet.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "User/allusers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[breezynet.Views.UserView, breezynet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "breezynet.Controllers.UserController",
+    "Method": "Authorization",
+    "RelativePath": "User/authorization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "breezynet.Views.UserView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "breezynet.Controllers.UserController",
+    "Method": "DeleteAll",
+    "RelativePath": "User/delall",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "breezynet.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "breezynet.Views.UserView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
